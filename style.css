@@ -1,0 +1,70 @@
+:root {
+  --primary-pink: #ff5a7a;
+  --soft-gold: #d4af37;
+  --background-dark: #2b0d0d;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: var(--background-dark);
+  color: white;
+}
+
+.hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom, #000000, var(--background-dark));
+  text-align: center;
+}
+
+.hero button {
+  padding: 15px 30px;
+  font-size: 1rem;
+  background: var(--primary-pink);
+  border: none;
+  color: white;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+.slideshow {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.verse {
+  margin: 50px;
+  font-style: italic;
+  font-size: 1.5rem;
+}
+
+.yes-btn {
+  padding: 20px;
+  background: var(--soft-gold);
+  border: none;
+  border-radius: 30px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.counter-box {
+  margin: 30px;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.letter-content {
+  margin: 40px;
+  font-size: 1.2rem;
+  max-width: 600px;
+  line-height: 1.5;
+  text-align: center;
+}
