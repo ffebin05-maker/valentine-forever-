@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Jessy & Febin ❤️</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div id="bg-canvas"></div>
+
+<!-- HERO SECTION -->
+<section class="hero">
+  <h1>Our Love Story ❤️</h1>
+  <button onclick="startExperience()">Enter Our Sanctuary</button>
+</section>
+
+<!-- MAIN CONTENT -->
+<div class="content hidden" id="mainContent">
+
+  <!-- Marriage Counter -->
+  <div class="counter-box">
+    <h3>Our Journey as Husband & Wife ❤️</h3>
+    <div id="timer">Loading our memories...</div>
+  </div>
+
+  <!-- Slideshow -->
+  <section class="slideshow">
+     <img id="slide" src="assets/photo1.jpg" alt="Wedding photo" />
+  </section>
+
+  <!-- Love Letter -->
+  <div class="letter-content">
+     <h2>My Dearest Jessy,</h2>
+     <p>Since the day we said "I Do," my world has been a dream.</p>
+     <p>You are my answered prayer, my peace, my forever.</p>
+     <p>Forever Yours,<br>Febin</p>
+  </div>
+
+  <!-- Bible Verse -->
+  <div class="verse">
+    "I have found the one whom my soul loves." <br />
+    <small>— Song of Solomon 3:4</small>
+  </div>
+
+  <!-- Final Button -->
+  <button onclick="showFinal()" class="yes-btn">
+    WILL YOU BE MY VALENTINE FOREVER? ❤️
+  </button>
+
+  <div id="forever" class="hidden">
+      <h1>Jessy & Febin: A Love Without End</h1>
+  </div>
+
+</div>
+
+<audio id="bgMusic" src="assets/music.mp3"></audio>
+
+<script src="script.js"></script>
+</body>
+</html>
